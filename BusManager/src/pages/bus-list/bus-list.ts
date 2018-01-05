@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { BusPage } from '../bus/bus';
 /**
  * Generated class for the BusListPage page.
  *
@@ -17,7 +17,9 @@ export class BusListPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-
+  register(){
+    this.navCtrl.push(BusPage);
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad BusListPage');
   }
