@@ -3,7 +3,9 @@ import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { BusPage } from '../pages/bus/bus';
-
+import { DriverListPage } from '../pages/driver-list/driver-list';
+import { BusStatusPage } from '../pages/bus-status/bus-status';
+import { DestinationPage } from '../pages/destination/destination';
 import { HomePage } from '../pages/home/home';
 @Component({
   templateUrl: 'app.html'
