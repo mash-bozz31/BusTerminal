@@ -17,7 +17,9 @@ export class BusPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-
+Register(){
+  nav.navCtrl.push(BusListPage)
+}
   ionViewDidLoad() {
     console.log('ionViewDidLoad BusPage');
   }
